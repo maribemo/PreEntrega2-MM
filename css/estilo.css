@@ -13,7 +13,6 @@ h1{
     font-family: 'Bitter', serif;
 }
 
-
 .contenedorLogo
 {
     /*text-align: center;*/
@@ -45,7 +44,6 @@ h3{
     text-align: center;
 }
 
-
 nav{
     font-size: large;
     display: flex;
@@ -54,6 +52,7 @@ nav{
     align-items: center;
     background-color: rgb(209, 224, 233);
 }
+
 .menu{
     background-color: rgb(209, 224, 233);
     color: rgb(81, 59, 179);
@@ -90,12 +89,7 @@ color: white;
     border-radius: 5%;  
     }
 
-
-
-
-
 .menu2{
-   
     color: rgb(22, 20, 34);
     list-style-type: circle ;
     text-align: center;
@@ -124,12 +118,11 @@ footer{
     margin: 0;
 }
 
-@media only screen and(min-width: 480px){
+@media only screen and(max-width: 480px){
     .section2 img{
     width: 10vh;   
 }
 }
-
 
 .section1{
     color: rgb(23, 23, 43);
@@ -176,19 +169,15 @@ div{
     width: 400px;
 }
 
-
 .foto8{
     width: 120px;
     padding: 5px;
     text-align: center;
 }
 
-
 .foto9{
     width: 300px;
 }
-
-
 
 .foto10{
     width: 100px;
@@ -224,7 +213,6 @@ form action{
     margin: 0 auto;
 }
 
-
 .contenedorPadre{ 
     width: 100% auto;
     margin: 5% auto;
@@ -254,7 +242,6 @@ form action{
     grid-area: main;
     padding: 45px;
     border: rgb(236, 95, 236) (245, 138, 99) solid 30px;
-
 }
 
 .Item3{
@@ -276,19 +263,16 @@ form action{
     height: 160px;
 }
 
-
 .Item10{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .Item10 .foto6{
     width: 14rem;
 }
-
 
 .Item11{
     display: flex;
@@ -296,26 +280,21 @@ form action{
     justify-content: center;
     }
 
-
 .Item11 .menu2{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-                }
-
+    }
 
 .Item11 .menu2 .ul .li{
         
         justify-content: center;
-            }
-
+        }
 
 h1 {color: white}
 
 h4
 {color: rgb(65, 3, 65);}
-
-
 
 .menu3{
     display:flex;
@@ -339,45 +318,46 @@ h4
     width: 10px
 }
 
-
-
 @media only screen and (max-width: 480px){
 
 body{
     background-color:blue;
     text-align: justify;
     flex-direction: column;
+    font-size: small;
 }
-.contenedorPadre{ 
+    .contenedorPadre{ 
         width: 100% auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: auto auto auto;
         grid-template-areas: 
         "header"
         "main "
         "aside";
 }
+    .item1 { 
+        display: flex;
+        flex-direction: column;
+    }   
 
     .item1 h5{
+        display: flex;
         flex-direction: column;
-        flex-wrap:wrap ;
-    }
+        flex-wrap: wrap;
+        }
 
     .Item2 .foto2{
         width: 60px;
     }
-
+    
     .Item10 .foto6{
         width: 40px;
     }
 
-
-
     .item11 {
         flex-direction: column;
     }
-
 }
 
 .colorCard{
@@ -386,19 +366,15 @@ body{
 
 .colorCard2{
     background-color: #dde2e3;
-
 }
 
 .colorContainer{
     background-color: #bbc1c2;
-
 }
 
 .colorRow{
     background-color: #dde2e3;
-
 }
-
 
 .formu{
     width: 600px;
@@ -411,5 +387,4 @@ body{
     width: 500px;
     margin: 0 auto ;
     padding: 20px;
-
 }
