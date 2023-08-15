@@ -8,6 +8,7 @@ body{
     background-image: url(../img/fondo.jpg);
     background-color: rgb(237, 240, 241);
     font-family: 'Zilla Slab', serif;
+    font-size: 15px;
     }
 h1{
     font-family: 'Bitter', serif;
@@ -44,13 +45,15 @@ h3{
     text-align: center;
 }
 
+
 nav{
     font-size: large;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(209, 224, 233);
+    /*background-color: rgb(209, 224, 233);*/
+    background: linear-gradient(rgb(209, 224, 233), rgb(227, 230, 233));
 }
 
 .menu{
@@ -83,11 +86,24 @@ nav{
 color: white;    
 }
 
-.navbar a:hover{
-    color: white;  
-    background-color: rgb(187, 182, 182);
-    border-radius: 5%;  
+
+.nav-link active a:hover{
+    color: white;    
     }
+    
+
+.navbar-nav a:hover{
+    color: white;  
+    background-color: rgb(223, 218, 218);
+    border-radius: 5%;
+    transform: scale(1.05, 1.05);
+    }
+
+.navbar a icon-link:hover{
+    background-color: none;
+}
+
+
 
 .menu2{
     color: rgb(22, 20, 34);
@@ -97,7 +113,7 @@ color: white;
 }
 
 .menu2 li{
-    list-style-type: square ;
+    list-style-type: circle ;
     text-align: center;
     padding: 0px;
 }
@@ -129,14 +145,22 @@ footer{
     font-size: bold;
     padding: 20px;
     background-color: #798dc9;
-    width: 92%;
+    max-width: 92%;
     margin: 0 auto;
 }
 
 .section3{
     color: #000080;
     padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
+
+.card{
+background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247))
+}
+
 
 div{
     text-align: center;
@@ -151,10 +175,11 @@ div{
 .foto2{
     width: 500px;
     text-align: center;
+    padding: 30px;
 }
 
 .foto3{
-    width: 350px;
+    max-width: 250px;
     padding: 20px;
 }
 .foto5{
@@ -162,7 +187,8 @@ div{
 }
 
 .foto6{
-    width: 400px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .foto7{
@@ -176,16 +202,31 @@ div{
 }
 
 .foto9{
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .foto10{
-    width: 100px;
+    max-width: 250px;
+    padding: 20px;
 }
 
 .foto11{
     width: 20px;
 }
+
+.foto12{
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+}
+
+.foto18{
+    max-width: 350px;
+    width: 100%;
+    padding: 5px;
+}
+
 
 
 iframe{
@@ -227,14 +268,16 @@ form action{
 }
 
 .Item1{
-    background-color:#66b9bf;
-    height: 120px;
+    background-color:#bee0e2;
     grid-area: header;
     padding: 20px;
     display: flex;
     justify-content: center;
     font-size: smaller;
     color: rgb(82, 6, 82);
+    max-width: 1000px;
+    margin: 0 auto;
+    
 }
 
 .Item2{
@@ -256,7 +299,10 @@ form action{
 }
 
 .Item4{
+    /*
     background-color: #F7DFD4;
+    background-color: #d6c0ac;*/
+    background: linear-gradient(rgb(223, 213, 193), #d6c0ac);
     grid-area: footer;
     padding: 10px;
     border-radius: 1%;
@@ -278,6 +324,7 @@ form action{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     }
 
 .Item11 .menu2{
@@ -345,14 +392,15 @@ body{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 0 auto;
         }
 
     .Item2 .foto2{
-        width: 60px;
+        width: 225px;
     }
     
     .Item10 .foto6{
-        width: 40px;
+        width: 250px;
     }
 
     .item11 {
@@ -361,7 +409,8 @@ body{
 }
 
 .colorCard{
-    background-color: #9aacb8;
+    /*background-color: #dde2e3 ;*/
+    background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214))
 }
 
 .colorCard2{
@@ -370,21 +419,124 @@ body{
 
 .colorContainer{
     background-color: #bbc1c2;
+    margin: 0 auto;
+    gap: 15px;
 }
 
 .colorRow{
     background-color: #dde2e3;
 }
 
+.colorRow2{
+    background-color: #607579;
+    
+}
+
+.colorRow3{
+    background-color: #acb4b6;
+}
+
 .formu{
     width: 600px;
-    margin: 0 auto ;
+    margin: 0 auto;
     background-color:#7a8dc9 ;
-    padding: 40px;
+    padding: 15px;
+}
+
+
+.row formu{
+    width: 350px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 .formu2{
-    width: 500px;
-    margin: 0 auto ;
+    width: 540px;
+    margin: 0 auto;
     padding: 20px;
 }
+
+.btn-color
+{
+    background-color: #5a5a8f;
+    color: white;
+    padding: 20px 20px;
+        }
+
+.btn-color:hover
+    {
+    background-color: #7a8dc9;
+    color: black;
+        }
+    
+        .btn-circle.btn-xl {
+            width: 180px;
+            height: 50px;
+            padding: 20px 28px;
+            border-radius: 35px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+
+        .sectionFoto{
+            max-width: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+.animation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.animated{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 20%;
+    background-color: #edeef1;
+    color: #acb4b6;
+    animation: efecto-bread-crumbs 5s ease 1s infinite;
+}
+
+.animated2{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 20%;
+    background-color: #edeef1;
+    color: #acb4b6;
+    animation: efecto-bread-crumbs 5s ease 2s infinite;
+}
+
+.animated3{
+    width: 30px;
+    height: 30px;
+    margin:5px;
+    border-radius: 20%;
+    background-color: #edeef1;
+    color: #acb4b6;
+    animation: efecto-bread-crumbs 4s ease 3s infinite;
+}
+
+@keyframes efecto-bread-crumbs{
+    0%{ 
+        background:rgb(151, 150, 150) ;
+        }
+    
+    50% {
+        background:rgb(211, 141, 141);
+        }
+    
+    100%{ 
+        background: rgb(224, 46, 46);
+            }
+    }
+
+
+
+
+
