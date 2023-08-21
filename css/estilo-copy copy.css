@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-color: rgb(237, 240, 241);
+    font-family: 'Zilla Slab', serif;
+    font-size: 15px;
+    }
+
+.contenedorLogo
+{
+    padding: 10px;
+    border-radius: 50%;
+    width:80px;
+    justify-content:space-between
+    }
+
+nav{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-color: rgb(209, 224, 233);*/
+    background: linear-gradient(rgb(209, 224, 233), rgb(227, 230, 233));
+}
+
+.menu{
+    background-color: rgb(209, 224, 233);
+    color: rgb(81, 59, 179);
+    list-style-type: none;
+    text-align: right;
+    padding: 0px;
+    display: flex;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu li a{
+    padding: 10px;
+    margin: 5px;
+    border-style: hidden;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(86, 67, 155);
+    text-align: center;
+}
+
+.nav-link a:hover{
+color: white;    
+}
+
+.nav-link active a:hover{
+    color: white;    
+    }
+    
+
+.navbar-nav a:hover{
+    color: white;  
+    background-color: rgb(223, 218, 218);
+    border-radius: 5%;
+    transform: scale(1.05, 1.05);
+    }
+
+.navbar a icon-link:hover{
+    background-color: none;
+}
+
+.menu2{
+    color: rgb(22, 20, 34);
+    list-style-type: circle ;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu2 li{
+    list-style-type: circle ;
+    text-align: center;
+    padding: 0px;
+}
+
+.card{
+background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247))
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+}
+
+.foto1{
+    width: 400px;
+    padding: 10px;
+}
+
+.foto5{
+    width: 2px;
+}
+
+.foto7{
+    width: 400px;
+}
+
+fieldset{
+    width: 350px; 
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+form action{
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+.form{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedorPadre{ 
+    width: 100% auto;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr auto;
+    grid-template-areas: 
+    "header header header"
+    "main aside aside";
+    gap: 5px;
+    text-align: center;
+}
+
+
+
+h4
+{color: rgb(65, 3, 65);}
+
+.menu3{
+    display:flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: rgb(87, 97, 71);
+}
+
+.container 
+{  
+    background-color:#837e9e;
+    width: 100% auto;
+    
+}
+
+.card-img-top
+{
+    width: 10px
+}
+
+@media only screen and (max-width: 480px){
+
+body{
+    background-color:blue;
+    text-align: justify;
+    flex-direction: column;
+    font-size: small;
+}
+    .contenedorPadre{ 
+        width: 100% auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "header"
+        "main "
+        "aside";
+}
+    .item1 { 
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .item1 h5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        }
+
+    .Item2 .foto2{
+        width: 225px;
+    }
+    
+    .Item10 .foto6{
+        width: 250px;
+    }
+
+    .item11 {
+        flex-direction: column;
+    }
+}
+
+
+.colorCard2{
+    background-color: #dde2e3;
+}
+
+
+.colorRow{
+    background-color: #dde2e3;
+}
+
+.colorRow2{
+    background-color: #607579;
+    
+}
+
+.colorRow3{
+    background-color: #acb4b6;
+}
+
+
+.btn-color
+{
+    background-color: #5a5a8f;
+    color: white;
+    padding: 20px 20px;
+        }
+
+.btn-color:hover
+    {
+    background-color: #7a8dc9;
+    color: black;
+        }
+    
+        .btn-circle.btn-xl {
+            width: 180px;
+            height: 50px;
+            padding: 20px 28px;
+            border-radius: 35px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+
+        .sectionFoto{
+            max-width: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+
+@keyframes efecto-bread-crumbs{
+    0%{ 
+        background:rgb(151, 150, 150) ;
+        }
+    
+    50% {
+        background:rgb(211, 141, 141);
+        }
+    
+    100%{ 
+        background: rgb(224, 46, 46);
+            }
+    }
+
+
+
+
+

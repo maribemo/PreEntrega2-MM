@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-color: rgb(237, 240, 241);
+    /*font-family: 'Zilla Slab', serif;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 480px){
+
+            .contenedorPadre{ 
+            text-align: justify;
+            flex-direction: column;
+            width: 100% auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: 
+            "header"
+            "main "
+            "aside";
+    }
+        .item1 { 
+            display: flex;
+            flex-direction: column;
+        }   
+    
+        .item1 h5{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            }
+    
+        .Item2 .foto2{
+            width: 225px;
+        }
+        
+        .Item3 .foto6{
+            width: 250px;
+        }
+    
+        .item3 {
+            flex-direction: column;
+        }
+    }
