@@ -128,7 +128,8 @@ p.section1 {
       flex-direction: row;
       max-width: 180px;
       padding: 15px;
-      margin: 15px; }
+      margin: 15px;
+      text-align: center; }
 
 .colorCard2 {
   background-image: linear-gradient(#a4a4b3, #dad6d6);
@@ -270,7 +271,7 @@ h2 {
       padding: 10px;
       margin: 10px; }
   .formu .formu2 {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px; }
   .formu .btn-color {
