@@ -172,6 +172,7 @@ h2 {
     text-align: center; }
     .contenedorPadre .Item2 .foto2 {
       max-width: 400px;
+      width: 100%;
       text-align: center;
       padding: 30px; }
   .contenedorPadre .Item3 {
@@ -257,13 +258,13 @@ h2 {
 
 /*Pagina Contacto*/
 .formu {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   background-color: #7a8dc9;
   padding: 35px;
   text-align: center; }
   .formu .formu1 {
-    width: 450px;
+    max-width: 450px;
     margin: 0 auto; }
     .formu .formu1 .form-control {
       padding: 10px;
