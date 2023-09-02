@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Somos AdoptMe. Testimonios que valen la pena escuchar, leer y compartir." />
         <meta name="keywords" content="ser maravilloso,amigos,familia,amor incondicional,canino,humano." />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <!--link a boostrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
         <link rel="icon" href="../img/favicon.ico" />
@@ -48,14 +48,14 @@
         </header>
 
         <main>
-            <h1>Testimonios y algo más ...</h1>
+            <h1 id="inicio">Testimonios y algo más ...</h1>
 
             <section class="container">
                 <div class="row">
-                    <div class="col-lg-12 p-2 m-2 colorCard mx-auto">
+                    <div class="col-lg-10 p-2 m-2 colorCard mx-auto">
                         <h3 class="text-wrap">Para escuchar</h3>
                         <div class="mx-auto">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yIz1GTetIZ8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="iframeSize" width="660" height="315" src="https://www.youtube.com/embed/yIz1GTetIZ8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -70,26 +70,30 @@
                     
                     <div class="col-lg-4 p-2 m-2 colorRow3 mx-auto">
                         <h2>Más para leer</h2>
-                        <img class="foto10 img-fluid" src="../img/pets-book.png" class="img-fluid p-2 m-2" alt="Portada libro Pets" />
-                        <p>Podríamos decir que entre los animales y los humanos encontramos a las mascotas: esos seres que comparten nuestras rutinas y costumbres "humanas" con nuestras familias. Erica Fudge analiza esta relación fundamental desde una perspectiva teórica, alejándose del enfoque personal, el más usual en la bibliografía sobre mascotas.En el campo de la filosofía y de la historia, los animales poseen un rol central, ya que siempre han compartido la escena con los seres humanos que, de hecho, recortan su "humanidad" a contraluz de la "animalidad" de aquellos. En esta senda, Pets acomete una reflexión acerca del sentido de la humanidad: ¿qué nos hace humanos, sabiendo -como lo hacemos- que somos animales? "Si no entendemos a los animales -plantea Fudge- difícilmente entendamos lo que somos los humanos."</p>
+                        <img class="foto12" src="../img/arte-conducir.jpg" class="img-fluid" alt="Portada libro El Arte de conducir bajo la lluvia" />
+                        <p>Podría ser un libro de autoayuda, pero 'El arte de conducir bajo la lluvia es mucho mejor que eso'. Fue best seller del periódico 'The New York Times' y el libro con el que despuntó el profesor de bellas artes, Garth Stein, quien quiso poner en palabras y en los pensamientos del perro llamado Enzo, una bella historia de amor y miedo, una historia mitad canina mitad humana. Enzo es casi, casi el hombre perfecto, porque no tiene ninguno de los condicionantes de nuestra especie y desde ahí y desde su longeva experiencia alza la voz para darnos unas cuantas lecciones sobre ser personas pero sin excesiva sensiblería ni ñoñez. El arte de conducir bajo la lluvia lo tiene todo: amor, tragedia, redención, peligro y lo mejor: su narrador, Enzo, cuya alma de perro longevo tiene mucho que enseñarnos sobre el ser humano.</p>
                     </div>
 
+                    
                     <div class="col-lg-4 p-2 m-2 colorRow mx-auto">
                         <h2>Para seguir leyendo</h2>
-                        <img class="foto12" src="../img/arte-conducir.jpg" class="img-fluid" alt="Portada libro El Arte de conducir bajo la lluvia" />
-                        <p>Podría ser un libro de autoayuda, pero 'El arte de conducir bajo la lluvia es mucho mejor que eso'. Fue best seller del 'New York Times' y el libro con el que despuntó el profesor de bellas artes Garth Stein, quien quiso poner en palabras y en los pensamientos del perro Enzo una bella historia de amor y miedo, una historia mitad canina mitad humana. Enzo es casi, casi el hombre perfecto porque no tiene ninguno de los condicionantes de nuestra especie y desde ahí y desde su longeva experiencia alza la voz para darnos unas cuantas lecciones sobre ser personas pero sin excesiva sensiblería ni ñoñez.</p>
+                        <img class="foto10 img-fluid" src="../img/pets-book.png" class="img-fluid p-2 m-2" alt="Portada libro Pets" />
+                        <p>Podríamos decir que entre los animales y los humanos encontramos a las mascotas: esos seres que comparten nuestras rutinas y costumbres "humanas" con nuestras familias. Erica Fudge analiza esta relación fundamental desde una perspectiva teórica, alejándose del enfoque personal, el más usual en la bibliografía sobre mascotas.En el campo de la filosofía y de la historia, los animales poseen un rol central, ya que siempre han compartido la escena con los seres humanos que, de hecho, recortan su "humanidad" a contraluz de la "animalidad" de aquellos. En esta senda, Pets acomete una reflexión acerca del sentido de la humanidad: ¿qué nos hace humanos, sabiendo -como lo hacemos- que somos animales? "Si no entendemos a los animales -plantea Fudge- difícilmente entendamos lo que somos los humanos."</p>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-10 p-1 m-2 bg-light mx-auto">
                             <h3>Para ver</h3>
 
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AmgYVQAizNs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe class="iframeSize" width="560" height="315" src="https://www.youtube.com/embed/AmgYVQAizNs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     
                 </div>
             </section>
+            <div class="retorno">
+                <button class="btn btn-sm p-2 m-2 " type="button" ><a href="#inicio">🐾 Ir arriba🐾</a></button>
+            </div>
         </main>
 
         <footer>
@@ -97,9 +101,8 @@
                 <div>
                     <img class="foto8" src="../img/perritos-en-espera.jpg" alt="perritos en espera" />
                 </div>
-                <h6>Telefono ☎: 5432-1234</h6>
-                Whatsapp
-                <img class="foto11" src="../img/whatsapp.jpg" /> 011-15-1234-6666
+                <h6>Teléfono ☎: 5432-1234</h6>
+                <h6>Whatsapp<img class="foto11" src="../img/whatsapp.jpg" alt="logo whatsapp"/> :011-15-1234-6666</h6>
                 <h6>Mail 📧: adoptme@adoptme.com.ar</h6>
             </div>
         </footer>

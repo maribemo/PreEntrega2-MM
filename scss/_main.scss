@@ -1,359 +1,532 @@
-main{
-    .section2{
+main {
+    .section2 {
         text-align: center;
         width: 100% auto;
-        .img{
+        .img {
             width: 800px;
-            border-radius: 1%;
             margin: 0;
-            @media only screen and(max-width: 480px){
-            .img{
-            width: 10vh; 
-            }
-            }
-            }
-            }
-            h1{
-            text-align: center;
-            padding: 10px;
-            color: #b1839cf5;
-            font-family: 'Bitter', serif;
-            }
-            h2{
-            text-align: center;
-            padding: 10px;
-            color: rgb(99, 65, 99);
-            font-size: large;
-            }
-            .section1{
-                color: rgb(23, 23, 43);
-                font-size: bold;
-                padding: 20px;
-                background-color: $colorsection1;
-                width: 100% auto;
-                margin: 0 auto;
-            }
-        .card{
-            background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247))
+            @media (max-width: 480px) {
+                .img {
+                    width: 10vh;
                 }
-                .btn-color{
-                    background-color:$color-boton;
-                    color: white;
-                    padding: 20px 20px;
-                }
-                        .btn-color:hover{
-                        background-color: $color-boton-hover;
-                        color: black;
-                        }
-                    .btn-circle.btn-xl {
-                    width: 180px;
-                    height: 50px;
-                    padding: 16px 26px;
-                    border-radius: 35px;
-                    font-size: 12px;
-                    text-align: center;
-                }
-                .colorCard{
-                    background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));
-                    .sectionFoto{
-                    max-width: 50px;
-                    }
-                } 
-                
-                .colorCard2{
-                    background-color: #dde2e3;
-                }
-            }
-
-    /*Pagina Nuestra Misión*/    
-    p.section1{
-        color: rgb(23, 23, 43);
-        font-size: bold;
-        padding: 20px;
-        background-color: #798dc9;
-        max-width: 92%;
-        text-align: center;
-    }        
-    .card{
-        background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));
-        .colorCard{
-            background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));
-            text-align: center;
-            .ordenFoto{
-                display: flex;
-                flex-direction: row;
-                max-width: 180px;
-                padding: 15px;
-                margin: 15px;
-                justify-content: center;
-                align-items: center;
-                }   
             }
         }
-        .colorCard2{
-            background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));
-            text-align: center;
-        }
-        p.section3{
-            color: #000080;
-            padding: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-    /*Pagina Porque Ayudar */
-
-    h2{
+        .section3{
+        max-width: 90%;
+        margin: 0 auto;
+            }
+    }
+    h1 {
         text-align: center;
         padding: 10px;
-        color: grey;
+        color: rgb(100, 93, 93);
+        font-family: "Bitter", serif;
+    }
+    h2 {
+        text-align: center;
+        padding: 10px;
+        color: rgb(158, 157, 157);
         font-size: large;
+    }
+    .section1 {
+        color: rgb(23, 23, 43);
+        font-size: 18px;
+        padding: 20px;
+        /*background-color: $colorsection1;*/
+        width: 92% auto;
+        margin: 0 auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-group {
+        max-width: 90%;
+        margin: 0 auto;
+        border-radius: 0px 0px 0px 0px;
+        /*.card{
+                background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
+    }
+    .btn-color {
+        background-color: $color-boton;
+        color: white;
+        padding: 15px 15px;
+    }
+    .btn-color:hover {
+        background-color: $color-boton-hover;
+        color: black;
+    }
+    .btn-circle.btn-xl {
+        width: 180px;
+        height: 50px;
+        padding: 16px 26px;
+        border-radius: 35px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .colorCard {
+        /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
+        .sectionFoto {
+            max-width: 50px;
         }
+    }
 
-    .contenedorPadre{ 
-        width: 100%;
-        display: grid;
-        gap: 20 px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr auto;
-        grid-template-areas: 
+    /*.colorCard2{
+                    background-color: #dde2e3;*/
+
+.retorno{
+        text-align: center;
+    button.btn a{
+        text-decoration: none;
+        background-color: #e2e2e6;
+        border: #f3f3f7 solid 3px;
+        border-radius: 5px;
+        padding: 5px;
+        .retorno{
+        text-align: center;
+    }
+        }
+    }
+}
+
+/*Pagina Nuestra Misión*/
+p.section1 {
+    color: rgb(23, 23, 43);
+    margin-top: 20px;
+    font-size: large;
+    padding: 20px;
+    background-color: #b3b6c0;
+    max-width:90%;
+    text-align: center;
+}
+.card {
+    /*background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
+    .colorCard {
+        /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
+        text-align: center;
+        .ordenFoto {
+            display: flex;
+            flex-direction: row;
+            max-width: 180px;
+            padding: 15px;
+            margin: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.colorCard2 {
+    /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+    .h2{
+        font-size: 20px;
+    }
+    
+    p.section3 {
+        color: #000080;
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        }
+    }    
+.foto{
+    max-width: 350px;
+    border-radius: 5px;
+}   
+@media (max-width: 480px) {
+        .caja{
+            display: flex;
+            flex-direction: column;
+        }
+        .foto {
+            width: 250px;
+            text-align: center;
+}
+}
+
+
+
+
+/*Pagina Porque Ayudar */
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: grey;
+    font-size: large;
+}
+
+.contenedorPadre {
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    gap: 20 px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr auto;
+    grid-template-areas:
         "header header header"
-        "main aside aside" ;
-        
-        .Item1{
-        background-color: $colorItem1;
+        "main aside aside";
+
+    .Item1 {
+        /*background-color: $colorItem1;*/
+        background-color: rgb(252, 250, 250);
         grid-area: header;
         padding: 30px;
         display: flex;
         justify-content: center;
         text-align: center;
-        color:grey  ;
+        color: grey;
         max-width: 100%;
         margin: 0 auto;
-        }
-        
-        .Item2{
-        background-color: $colorItem2;
+        margin-bottom: 10px;
+    }
+
+    .Item2 {
+        /*background-color: $colorItem2;*/
+        background-color: white;
         grid-area: main;
         padding: 30px;
         /*border: (245, 138, 99) solid 30px;*/
         text-align: center;
-            .foto2{
+        h3{
+            background-image: linear-gradient(rgb(248, 248, 252), rgb(252, 247, 247));
+            color: grey;
+            border-radius:2%;
+            max-width: 75%;
+            text-align: center;
+            margin: 0 auto;
+        h4{
+            color: grey;
+            text-align: center; 
+        }
+        }
+        .foto2 {
             max-width: 400px;
             width: 100%;
             text-align: center;
             padding: 30px;
-            }
+            margin-top: 30px;
         }
-        
-        .Item3{
-        background-color:$colorItem3;
+    }
+
+    .Item3 {
+        /*background-color:$colorItem3;*/
+        background-color: white;
+        border-width: 3px;
+        border-style: solid;
+        border-image: linear-gradient(
+        to bottom, 
+        rgb(150, 150, 204), 
+        rgba(109, 102, 102, 0)
+        ) 1 100%;
         grid-area: aside;
-        padding: 10px;
-        color: whitesmoke;
+        padding: 15px;
+        color: grey;
         line-height: 100%;
-            .ul{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                .li{
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0 auto;
+            line-height: 1.5;
+            h3 {
+                text-align: center;
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+
+            /*list-style-image: url("../img/icono-ok-2.png");*/
+            .li {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
-                .h3{
-                    text-align: center;
-                    }
-                }
+                list-style-type: none;
+                padding: 15px;
+                line-height: 2.5;
+                margin: 0 auto;
+                /*list-style-image: url("../img/icono-ok-2.png");*/
+                
             }
-            .contenedorFotos{
+        }
+        .contenedorFotos {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-            padding: 15px;
+            padding: 30px;
             gap: 10px;
+            margin-top: 20px;
             /*
             background-color: rgb(163, 162, 162);*/
-            .foto6{
-                max-width: 250px;
-                border: rgb(187, 183, 183) solid 4px;
+            .foto6 {
+                max-width: 300px;
+                border: rgb(187, 183, 183) solid 0px;
+                padding: 15px;
+                border-radius: 5px;
+                .foto6 a:hover {
+                    transform: scale(1.3);
+                    transform: scale(1.3);
                 }
-            .foto9{
-                    max-width: 250px;
-                    border: rgb(187, 183, 183) solid 4px;
-                    }    
+                .foto6 {
+                    overflow: hidden;
                 }
-            }    
-        }                
-
-        @media only screen and (max-width: 480px){
-
-                .contenedorPadre{ 
-                    width: 100% auto;
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    grid-template-rows: auto auto auto;
-                    grid-template-areas: 
-                    "header"
-                    "main "
-                    "aside";
-                    
-                    .item1 { 
-                    display: flex;
-                    flex-direction: column;
-                    }   
-                } 
-            }    
-        
-
-/*Pagina testimonios*/
-    .container{
-            width: 100% auto;
-            text-align: center;
-            gap: 15px;
-            background-color: #bbc1c2;
-            margin: 0 auto;
-            gap: 15px;
             }
-
-                    .colorCard{
-                    background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));
-                    text-align: center;
-                    .div{
-                        text-align: center;
-                        padding: 5px;
-                        text-align: center;
-                        .iframe{
-                        text-align: center;
-                        }
-                    }   
-                }
-                
-            
-                    .colorRow{
-                    background-color: #dde2e3;
-                    text-align: center;
-                    .foto8{
-                    max-width: 250px;
-                    padding: 20px;
-                    }
-                    .foto12{
-                        max-width: 250px;
-                        width: 100%;
-                        padding: 20px;
-                    }
-                }
-            
-                
-                .colorRow3{
-                    background-color: #acb4b6;
-                    text-align: center;
-                    .foto10{
-                    max-width: 250px;
-                    padding: 20px;
-                }
-                }
-
-/*Pagina Contacto*/
-    .formu{
-        max-width: 600px;
-        margin: 0 auto;
-        background-color:#7a8dc9 ;
-        padding: 35px;
-        text-align: center;
-        .formu1 {
-            max-width: 450px;
-            margin: 0 auto; 
-            .form-control{
-                padding: 10px;
-                margin: 10px;
+            .foto9 {
+                max-width: 300px;
+                border: rgb(187, 183, 183) solid 0px;
             }
         }
-        .formu2 {
-            max-width: 450px;
-            margin: 0 auto;
-            padding: 20px;
-            }        
-        .btn-color{
-                background-color: #5a5a8f;
-                color: white;
-                padding: 20px 20px;
-                text-align: center;
-            .btn-color:hover{
-                background-color: #7a8dc9;
-                color: black;
-                }
-            .btn-circle.btn-xl {
+    }
+}
+
+@media (max-width: 350px) {
+    .contenedorPadre {
+        width: 100% auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "header"
+            "main "
+            "aside";
+
+        /*.item1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }*/
+    }
+}
+
+/*Pagina testimonios*/
+.container {
+    width: 100% auto;
+    text-align: center;
+    gap: 15px;
+    /*background-color: #bbc1c2;*/
+    margin: 0 auto;
+    gap: 15px;
+    background-color: #fcfeff;
+    h3{
+        color: rgb(80, 68, 68);
+    }
+    .iframeSize{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 350px) {
+    .iframeSize {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+.colorCard {
+    /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
+    background-color: white;
+    text-align: center;
+    .div {
+        text-align: center;
+        padding: 5px;
+        text-align: center;
+        .iframe {
+            text-align: center;
+            @media (max-width: 480px){
+                width: 200px ;
+            }
+        }
+    }
+}
+
+.row{
+    .iframeSize{
+        max-width: 400px;
+    }
+}
+
+/*Pagina Contacto*/
+.contenedorContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    /*background-color: #f6f6fa;*/
+    background-color: #f7f7fc;
+    border-radius: 5px;
+    .formu {
+    max-width: 600px;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    background-color:  #f7f7fc;
+    border: 2px solid rgb(230, 230, 235);
+    padding: 100px;
+    text-align: center;
+    border-radius: 5px;
+        .formu1 {
+        max-width: 100%;
+        margin: 0 auto;
+            input.form-control {
+            padding: 10px;
+            margin: 10px;
+            max-width: 600px;
+        }
+    }
+        p{
+        padding: 25px;
+        background-color: #cbd1d4;
+        margin-top: 45px;
+        border-radius: 5px;
+        }
+}
+    h2
+        {
+        margin-bottom: 15px;
+        padding: 15px;
+        color: #41418b;
+    }
+    .formu2 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .fotoP{
+        margin: 0 auto;
+        max-width: 80px;
+    }
+
+    .btn-color {
+        background-color: #5a5a8f;
+        color: white;
+        padding: 30px;
+        margin-top: 20px;
+        text-align: center;
+        .btn-color:hover {
+            background-color: #7a8dc9;
+            color: black;
+        }
+        .btn-circle.btn-xl {
             width: 180px;
             height: 50px;
             padding: 20px 28px;
             border-radius: 35px;
             font-size: 15px;
             text-align: center;
-            margin: auto;    
-                    }
-                }   
+            margin: auto;
+        }
+    }
+
+
+    .section2 {
+        img.foto20 {
+        max-width: 450px;
+        width: 90%;
+        padding: 35px;
+        border-radius: 15px;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .mapa{
+        height: auto;
+        max-width: 900px;
+        margin: 0 auto;
+        /*iframe {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin-right: 45px;
+        margin-bottom:45px;
+        border-radius: 5px;
+        max-width: 500px;*/
+        width: 100%;
+        height: 100%;
+            }
         }
 
-        .section2{
-                .foto20{
-                max-width: 300px;
-                width: 90%;
-                padding: 10px;
-                }
-                }
-        .animation{
+
+
+.animation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .animated {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        border-radius: 20%;
+        background-color: #edeef1;
+        color: #acb4b6;
+        animation: efecto-bread-crumbs 3s ease 1s infinite;
+    }
+    .animated2 {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        border-radius: 20%;
+        background-color: #edeef1;
+        color: #acb4b6;
+        animation: efecto-bread-crumbs 3s ease 2s infinite;
+    }
+    .animated3 {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        border-radius: 20%;
+        background-color: #edeef1;
+        color: #acb4b6;
+        animation: efecto-bread-crumbs 3s ease 3s infinite;
+    }
+
+    @keyframes efecto-bread-crumbs {
+        0% {
+            background: rgb(221, 182, 182);
+        }
+
+        50% {
+            background: rgb(223, 74, 74);
+        }
+
+        100% {
+            background: rgb(250, 1, 1);
+        }
+    }
+}
+
+iframe {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 45px;
+    margin-bottom:45px;
+    border-radius: 5px;
+    max-width: 500px;
+        }
+}
+
+
+@media (max-width: 480px) {
+        .contenedorContacto {
             display: flex;
-            flex-direction: row;
-            justify-content: center;
-            .animated{
-                width: 35px;
-                height: 35px;
-                margin: 5px;
-                border-radius: 20%;
-                background-color: #edeef1;
-                color: #acb4b6;
-                animation: efecto-bread-crumbs 3s ease 1s infinite;
-                }
-            .animated2{
-                width: 35px;
-                height: 35px;
-                margin: 5px;
-                border-radius: 20%;
-                background-color:#edeef1 ;
-                color: #acb4b6;
-                animation: efecto-bread-crumbs 3s ease 2s infinite;
-                }
-            .animated3{
-                width: 35px;
-                height: 35px;
-                margin:5px;
-                border-radius: 20%;
-                background-color:#edeef1;
-                color: #acb4b6;
-                animation: efecto-bread-crumbs 3s ease 3s infinite;
-                }
-
-                @keyframes efecto-bread-crumbs{
-                0%{ 
-                background:rgb(221, 182, 182) ;
-                }
-    
-                50% {
-                background:rgb(223, 74, 74);
-                }
-    
-                100%{ 
-                background: rgb(250, 1, 1);
-                }
-            }
-
-            }
-        
-            iframe{
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-width: 100%;
+            margin: 0 auto;
             text-align: center;
-            display: inline-block;
+                iframe {
+                max-width: 200px;
+                text-align: center;
                 }
-            
+            }
+        }
