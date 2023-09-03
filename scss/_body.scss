@@ -4,7 +4,6 @@ $bg2: #acb4b6;
 $bg3: blue;
 $bg4: red;
 
-
 @mixin formato ($bg){
     background-color: $bg;
     text-align: center;
@@ -22,7 +21,6 @@ $bg4: red;
     @include formato ($bg2)
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -31,9 +29,6 @@ $bg4: red;
 
 body {
     background-image: url(../img/fondo.jpg);
-    /*background-color: rgb(237, 240, 241);*/
-    /*font-family: 'Zilla Slab', serif;*/
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-size: 18px;
 }
 

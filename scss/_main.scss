@@ -48,7 +48,7 @@ main {
         margin: 0 auto;
         border-radius: 0px 0px 0px 0px;
         /*.card{
-                background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
+            background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
     }
     .btn-color {
         background-color: $color-boton;
@@ -68,28 +68,23 @@ main {
         text-align: center;
     }
     .colorCard {
-        /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
         .sectionFoto {
             max-width: 50px;
         }
     }
-
-    /*.colorCard2{
-                    background-color: #dde2e3;*/
 
 .retorno{
         text-align: center;
     button.btn a{
         text-decoration: none;
         /*background-color: #e2e2e6;*/
-
         background-color: #FDCF73;
         border: #f3f3f7 solid 3px;
         border-radius: 5px;
         padding: 5px;
         .retorno{
         text-align: center;
-    }
+            }
         }
     }
 }
@@ -100,7 +95,6 @@ p.section1 {
     margin-top: 20px;
     font-size: large;
     padding: 20px;
-    /*background-color: #b3b6c0;*/
     background-color: #c9ccdb;
     max-width:90%;
     text-align: center;
@@ -113,7 +107,6 @@ p.section1 {
     /*background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
     .colorCard{
         text-align: center;
-        /*background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
             .ordenFoto{
             display: flex;
             flex-direction: column;
@@ -125,13 +118,12 @@ p.section1 {
                     max-width: 180px;
                     justify-content: center;
                     margin: 0 auto;
-                    }
+                }
             }
         }
     }       
 
 .colorCard2 {
-    /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
     text-align: center;
 }
 
@@ -144,7 +136,6 @@ p.section1 {
         font-size: 25px;
         color: #41418b;
     }
-    
     p.section3 {
         color: rgb(128, 121, 145);
         padding: 20px;
@@ -158,22 +149,20 @@ p.section1 {
     border-radius: 5px;
 }   
 @media (max-width: 480px) {
-
-        .img-thumbnail{
+    .img-thumbnail{
             padding: 3rem;
         }
-        .caja{
-            display: flex;
-            flex-direction: column;
+    .caja{
+        display: flex;
+        flex-direction: column;
         }
-        .foto {
-            width: auto;
-            text-align: center;
-            display: flex;
-            justify-content: center;
+    .foto{
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
 }
 }
-
 
 /*Pagina Porque Ayudar */
 
@@ -214,7 +203,6 @@ h2 {
         background-color: white;
         grid-area: main;
         padding: 30px;
-        /*border: (245, 138, 99) solid 30px;*/
         text-align: center;
         h3{
             background-image: linear-gradient(rgb(248, 248, 252), rgb(252, 247, 247));
@@ -274,7 +262,7 @@ h2 {
                 padding: 15px;
                 line-height: 2.5;
                 margin: 0 auto;
-                /*list-style-image: url("../img/icono-ok-2.png");*/
+                
                 
             }
         }
@@ -286,8 +274,6 @@ h2 {
             padding: 30px;
             gap: 10px;
             margin-top: 20px;
-            /*
-            background-color: rgb(163, 162, 162);*/
             .foto6 {
                 max-width: 250px;
                 border: rgb(187, 183, 183) solid 0px;
@@ -296,7 +282,6 @@ h2 {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-
                 .foto6 a:hover {
                     transform: scale(1.3);
                     transform: scale(1.3);
@@ -330,7 +315,6 @@ h2 {
         flex-direction: column;
         text-align: center;
 
-
         .foto2{
             width: auto;
         }
@@ -357,17 +341,15 @@ h2 {
     h3{
         color: rgb(155, 154, 154);
     }
-    
 }
 
 @media (max-width: 576x) {
     iframe.iframeSize {
-        max-width: 200px;
-        text-align: center;
+    max-width: 200px;
+    text-align: center;
     }
 }
 .colorCard {
-    /*background-image: linear-gradient(rgb(164, 164, 179), rgb(218, 214, 214));*/
     background-color: white;
     text-align: center;
     .div {
@@ -385,7 +367,7 @@ h2 {
 
 .row{
     .iframeSize{
-        max-width: 400px;
+    max-width: 400px;
     }
 }
 
@@ -405,7 +387,6 @@ h2 {
     margin:0 auto;
     margin-top: 100px;
     margin-bottom: 45px;
-    
     background-color:  #f7f7fc;
     border: 2px solid rgb(230, 230, 235);
     padding: 100px;
@@ -419,12 +400,17 @@ h2 {
             margin: 10px;
             max-width: 600px;
         }
-    }
+        }
         p{
         padding: 20px;
         background-color: #cbd1d4;
         margin-top: 45px;
         border-radius: 5px;
+        }
+        .formu2 {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 18px;
         }
 }
     h2
@@ -433,22 +419,15 @@ h2 {
         padding: 15px;
         color: #41418b;
     }
-    .formu2 {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
     .fotoP{
         margin: 0 auto;
         max-width: 80px;
     }
-
     .fotoPP{
         margin: 0 auto;
         max-width: 70px;
         padding: 5px;
     }
-
 
     .btn-color {
         background-color: #5a5a8f;
@@ -471,7 +450,6 @@ h2 {
         }
     }
 
-
     .section2 {
         img.foto20 {
         max-width: 300px;
@@ -488,18 +466,8 @@ h2 {
         height: auto;
         max-width: 600px;
         margin: 0 auto;
-        /*iframe {
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        margin-right: 45px;
-        margin-bottom:45px;
-        border-radius: 5px;
-        max-width: 500px;*/
         }
-        }
-
-
+    }
 
 .animation {
     display: flex;
@@ -536,18 +504,13 @@ h2 {
 
     @keyframes efecto-bread-crumbs {
         0% {
-            background: #FDCF73;
+        background: #FDCF73;
         }
-
         50% {
-            /*background: rgb(223, 74, 74);*/
-            /*background: #c5cbdd;*/
-            background-color: white;
+        background-color: white;
         }
-
         100% {
-            /*background: rgb(250, 1, 1);*/
-            background: #f09918;
+        background: #f09918;
         }
     }
 }
@@ -562,8 +525,7 @@ iframe {
     border-radius: 5px;
     max-width: 500px;
         }
-}
-*/
+}*/
 
 @media (max-width: 768px) {
         .contenedorContacto {
@@ -574,11 +536,10 @@ iframe {
             margin: 0 auto;
             text-align: center;
                 h2{
-                    text-align: center;
-                    margin: 0 auto;    
+                text-align: center;
+                margin: 0 auto;    
                 }
                 iframe {
-                    
                 width: 100%;
                 text-align: center;
                 }
@@ -587,15 +548,8 @@ iframe {
                     width: 100%;
                     margin-right: 20px;
                     text-align: center;
-
-                    
                 }
-
             }
         }
     }
-    
-
 }
-
-    
