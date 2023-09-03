@@ -5,21 +5,25 @@ footer {
     width: 100%;
     margin: 0 auto;
     .Item4 {
-        background-color: $colorfooter7;
+        background-color: $colorfooter9;
         /*background-color: rgb(236, 194, 114);*/
         grid-area: footer;
         padding: 10px;
         border-radius: 1%;
-        height: 160px;
+        height: 140px;
         width: 100%;
         .foto8 {
-            width: 80px;
+            width: 55px;
             padding: 5px;
             text-align: center;
+            border-radius: 10px;
         }
         .foto11 {
             width: 25px;
             border-radius: 5px;
+        }
+        h6{
+            font-size: 12px;
         }
     }
 }

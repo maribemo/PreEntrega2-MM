@@ -82,7 +82,8 @@ main {
           width: 10vh; } }
     main .section2 .section3 {
       max-width: 90%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      background-color: white; }
   main h1 {
     text-align: center;
     padding: 10px;
@@ -92,14 +93,16 @@ main {
     text-align: center;
     padding: 10px;
     color: #9e9d9d;
-    font-size: 20px; }
+    font-size: 20px;
+    /*background-color: white;*/
+    width: 90%; }
   main .section1 {
     color: #17172b;
     font-size: 18px;
     padding: 20px;
     font-weight: bold;
     /*background-color: $colorsection1;*/
-    background-color: #B3DBDB;
+    background-color: #d4dddd;
     width: 92% auto;
     margin: 0 auto;
     border-top-left-radius: 5px;
@@ -111,7 +114,7 @@ main {
     /*.card{
                 background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/ }
   main .btn-color {
-    background-color: #5a5a8f;
+    background-color: #6d6d97;
     color: white;
     padding: 15px 15px; }
   main .btn-color:hover {
@@ -147,7 +150,7 @@ p.section1 {
   font-size: large;
   padding: 20px;
   /*background-color: #b3b6c0;*/
-  background-color: #a4a9c9;
+  background-color: #c9ccdb;
   max-width: 90%;
   text-align: center; }
 
@@ -183,7 +186,7 @@ p.section1 {
   margin: 0 auto; }
   .caja h2 {
     font-size: 25px;
-    color: orange; }
+    color: #41418b; }
   .caja p.section3 {
     color: #807991;
     padding: 20px;
@@ -348,7 +351,7 @@ h2 {
   .container iframe.iframeSize {
     width: 450px; }
   .container h3 {
-    color: #504444; }
+    color: #9b9a9a; }
 
 @media (max-width: 576x) {
   iframe.iframeSize {
@@ -536,17 +539,20 @@ footer {
   width: 100%;
   margin: 0 auto; }
   footer .Item4 {
-    background-color: #bdb2b4;
+    background-color: #9da7c4;
     /*background-color: rgb(236, 194, 114);*/
     grid-area: footer;
     padding: 10px;
     border-radius: 1%;
-    height: 160px;
+    height: 140px;
     width: 100%; }
     footer .Item4 .foto8 {
-      width: 80px;
+      width: 55px;
       padding: 5px;
-      text-align: center; }
+      text-align: center;
+      border-radius: 10px; }
     footer .Item4 .foto11 {
       width: 25px;
       border-radius: 5px; }
+    footer .Item4 h6 {
+      font-size: 12px; }
