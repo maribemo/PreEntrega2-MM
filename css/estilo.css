@@ -195,7 +195,7 @@ p.section1 {
   max-width: auto;
   border-radius: 5px; }
 
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .img-thumbnail {
     padding: 3rem; }
   .caja {
@@ -319,20 +319,22 @@ h2 {
         flex-direction: column;
         justify-content: center; }
 
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .contenedorPadre {
     width: 100% auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "header" "main " "aside";
-    /*.item1 {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }*/ }
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
     .contenedorPadre .foto2 {
-      width: auto; } }
+      width: auto; }
+    .contenedorPadre .item1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center; } }
 
 /*Pagina testimonios*/
 .container {
@@ -445,7 +447,7 @@ iframe {
       text-align: center;
       margin: auto; }
   .contenedorContacto .section2 img.foto20 {
-    max-width: 450px;
+    max-width: 300px;
     width: 90%;
     padding: 35px;
     border-radius: 15px;
@@ -514,11 +516,16 @@ iframe {
       max-width: 100%;
       margin: 0 auto;
       text-align: center; }
+      .contenedorContacto .contenedorContacto h2 {
+        text-align: center;
+        margin: 0 auto; }
       .contenedorContacto .contenedorContacto iframe {
-        max-width: 200px;
+        width: 100%;
         text-align: center; }
-      .contenedorContacto .contenedorContacto .section2 img.foto20 {
-        width: 90%; } }
+      .contenedorContacto .contenedorContacto .section2 .foto20 {
+        width: 100%;
+        margin-right: 20px;
+        text-align: center; } }
 
 footer {
   padding: 10px;
