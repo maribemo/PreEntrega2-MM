@@ -1,24 +1,21 @@
-
 $bg1: #dde2e3;
 $bg2: #acb4b6;
-$bg3: blue;
-$bg4: red;
 
-@mixin formato ($bg){
+@mixin formato($bg) {
     background-color: $bg;
     text-align: center;
-    img{
+    img {
         max-width: 250px;
         padding: 20px;
     }
-}    
-
-.colorRow{
-    @include formato ($bg1)
 }
 
-.colorRow3{
-    @include formato ($bg2)
+.colorRow {
+    @include formato($bg1);
+}
+
+.colorRow3 {
+    @include formato($bg2);
 }
 
 * {

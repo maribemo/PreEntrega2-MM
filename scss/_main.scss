@@ -11,11 +11,11 @@ main {
                 }
             }
         }
-        .section3{
-        max-width: 90%;
-        margin: 0 auto;
-        background-color: white;
-            }
+        .section3 {
+            max-width: 90%;
+            margin: 0 auto;
+            background-color: white;
+        }
     }
     h1 {
         text-align: center;
@@ -28,8 +28,7 @@ main {
         padding: 10px;
         color: rgb(158, 157, 157);
         font-size: 20px;
-        /*background-color: white;*/
-        width: 90%;
+        width: 100%;
     }
     .section1 {
         color: rgb(23, 23, 43);
@@ -37,7 +36,7 @@ main {
         padding: 20px;
         font-weight: bold;
         /*background-color: $colorsection1;*/
-        background-color:#d4dddd ;
+        background-color: #d4dddd;
         width: 92% auto;
         margin: 0 auto;
         border-top-left-radius: 5px;
@@ -47,8 +46,6 @@ main {
         max-width: 90%;
         margin: 0 auto;
         border-radius: 0px 0px 0px 0px;
-        /*.card{
-            background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
     }
     .btn-color {
         background-color: $color-boton;
@@ -72,18 +69,16 @@ main {
             max-width: 50px;
         }
     }
-
-.retorno{
+    .retorno {
         text-align: center;
-    button.btn a{
-        text-decoration: none;
-        /*background-color: #e2e2e6;*/
-        background-color: #FDCF73;
-        border: #f3f3f7 solid 3px;
-        border-radius: 5px;
-        padding: 5px;
-        .retorno{
-        text-align: center;
+        button.btn a {
+            text-decoration: none;
+            background-color: #fdcf73;
+            border: #f3f3f7 solid 3px;
+            border-radius: 5px;
+            padding: 5px;
+            .retorno {
+                text-align: center;
             }
         }
     }
@@ -96,7 +91,7 @@ p.section1 {
     font-size: large;
     padding: 20px;
     background-color: #c9ccdb;
-    max-width:90%;
+    max-width: 90%;
     text-align: center;
 }
 .card {
@@ -104,35 +99,34 @@ p.section1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/
-    .colorCard{
+    .colorCard {
         text-align: center;
-            .ordenFoto{
+        .ordenFoto {
             display: flex;
             flex-direction: column;
             justify-content: center;
             flex-wrap: wrap;
-                .img{
-                    display: flex;
-                    flex-direction: column;
-                    max-width: 180px;
-                    justify-content: center;
-                    margin: 0 auto;
-                }
+            .img {
+                display: flex;
+                flex-direction: column;
+                max-width: 180px;
+                justify-content: center;
+                margin: 0 auto;
             }
         }
-    }       
+    }
+}
 
 .colorCard2 {
     text-align: center;
 }
 
-.caja{
+.caja {
     display: flex;
     flex-direction: row;
     max-width: 1000px;
     margin: 0 auto;
-    h2{
+    h2 {
         font-size: 25px;
         color: #41418b;
     }
@@ -142,30 +136,29 @@ p.section1 {
         max-width: 600px;
         margin: 0 auto;
         text-align: center;
-        }
-    }    
-.foto{
+    }
+}
+.foto {
     max-width: auto;
     border-radius: 5px;
-}   
+}
 @media (max-width: 480px) {
-    .img-thumbnail{
-            padding: 3rem;
-        }
-    .caja{
+    .img-thumbnail {
+        padding: 3rem;
+    }
+    .caja {
         display: flex;
         flex-direction: column;
-        }
-    .foto{
+    }
+    .foto {
         width: auto;
         text-align: center;
         display: flex;
         justify-content: center;
-}
+    }
 }
 
 /*Pagina Porque Ayudar */
-
 h2 {
     text-align: center;
     padding: 10px;
@@ -186,14 +179,14 @@ h2 {
 
     .Item1 {
         /*background-color: $colorItem1;*/
-        background-color: rgb(252, 250, 250);
+        background-color: rgb(255, 251, 251);
         grid-area: header;
         padding: 30px;
         display: flex;
         justify-content: center;
         text-align: center;
         color: grey;
-        max-width: 100%;
+        max-width: 85%;
         margin: 0 auto;
         margin-bottom: 10px;
     }
@@ -204,17 +197,17 @@ h2 {
         grid-area: main;
         padding: 30px;
         text-align: center;
-        h3{
+        h3 {
             background-image: linear-gradient(rgb(248, 248, 252), rgb(252, 247, 247));
             color: grey;
-            border-radius:2%;
+            border-radius: 2%;
             max-width: 75%;
             text-align: center;
             margin: 0 auto;
-        h4{
-            color: grey;
-            text-align: center; 
-        }
+            h4 {
+                color: grey;
+                text-align: center;
+            }
         }
         .foto2 {
             max-width: 400px;
@@ -230,11 +223,7 @@ h2 {
         background-color: white;
         border-width: 3px;
         border-style: solid;
-        border-image: linear-gradient(
-        to bottom, 
-        rgb(150, 150, 204), 
-        rgba(109, 102, 102, 0)
-        ) 1 100%;
+        border-image: linear-gradient(to bottom, rgb(150, 150, 204), rgba(109, 102, 102, 0)) 1 100%;
         grid-area: aside;
         padding: 15px;
         color: grey;
@@ -252,7 +241,6 @@ h2 {
                 margin-bottom: 15px;
             }
 
-            /*list-style-image: url("../img/icono-ok-2.png");*/
             .li {
                 display: flex;
                 flex-direction: column;
@@ -262,8 +250,6 @@ h2 {
                 padding: 15px;
                 line-height: 2.5;
                 margin: 0 auto;
-                
-                
             }
         }
         .contenedorFotos {
@@ -315,7 +301,7 @@ h2 {
         flex-direction: column;
         text-align: center;
 
-        .foto2{
+        .foto2 {
             width: auto;
         }
         .item1 {
@@ -331,22 +317,21 @@ h2 {
     width: 100% auto;
     text-align: center;
     gap: 15px;
-    /*background-color: #bbc1c2;*/
     margin: 0 auto;
     gap: 15px;
     background-color: #fcfeff;
-    iframe.iframeSize{
+    iframe.iframeSize {
         width: 450px;
     }
-    h3{
+    h3 {
         color: rgb(155, 154, 154);
     }
 }
 
 @media (max-width: 576x) {
     iframe.iframeSize {
-    max-width: 200px;
-    text-align: center;
+        max-width: 200px;
+        text-align: center;
     }
 }
 .colorCard {
@@ -358,72 +343,70 @@ h2 {
         text-align: center;
         .iframe {
             text-align: center;
-            @media (max-width: 480px){
-                width: 100px ;
+            @media (max-width: 480px) {
+                width: 100px;
             }
         }
     }
 }
 
-.row{
-    .iframeSize{
-    max-width: 400px;
+.row {
+    .iframeSize {
+        max-width: 400px;
     }
 }
 
 /*Pagina Contacto*/
-.contenedorContacto{
+.contenedorContacto {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 90%;
     margin: 0 auto;
-    /*background-color: #f6f6fa;*/
     background-color: #f7f7fc;
     border-radius: 5px;
     .formu {
-    max-width: 600px;
-    margin:0 auto;
-    margin-top: 100px;
-    margin-bottom: 45px;
-    background-color:  #f7f7fc;
-    border: 2px solid rgb(230, 230, 235);
-    padding: 100px;
-    text-align: center;
-    border-radius: 5px;
-        .formu1 {
-        max-width: 100%;
+        max-width: 600px;
         margin: 0 auto;
-            input.form-control {
-            padding: 10px;
-            margin: 10px;
-            max-width: 600px;
-        }
-        }
-        p{
-        padding: 20px;
-        background-color: #cbd1d4;
-        margin-top: 45px;
+        margin-top: 100px;
+        margin-bottom: 45px;
+        background-color: #f7f7fc;
+        border: 2px solid rgb(230, 230, 235);
+        padding: 100px;
+        text-align: center;
         border-radius: 5px;
+        .formu1 {
+            max-width: 100%;
+            margin: 0 auto;
+            input.form-control {
+                padding: 10px;
+                margin: 10px;
+                max-width: 600px;
+            }
+        }
+        p {
+            padding: 20px;
+            background-color: #cbd1d4;
+            margin-top: 45px;
+            border-radius: 5px;
         }
         .formu2 {
             max-width: 600px;
             margin: 0 auto;
             padding: 18px;
         }
-}
-    h2
-        {
+    }
+    h2 {
         margin-bottom: 15px;
         padding: 15px;
         color: #41418b;
     }
-    .fotoP{
+    .fotoP {
         margin: 0 auto;
         max-width: 80px;
     }
-    .fotoPP{
+    .fotoPP {
         margin: 0 auto;
         max-width: 70px;
         padding: 5px;
@@ -452,82 +435,70 @@ h2 {
 
     .section2 {
         img.foto20 {
-        max-width: 300px;
-        width: 90%;
-        padding: 35px;
-        border-radius: 15px;
+            max-width: 300px;
+            width: 90%;
+            padding: 35px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+        iframe.iframeSize2 {
+            height: auto;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+
+    .animation {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        text-align: center;
-        margin: 0 auto;
-    }
-    iframe.iframeSize2{
-        height: auto;
-        max-width: 600px;
-        margin: 0 auto;
+        padding: 35px;
+        .animated {
+            width: 15px;
+            height: 15px;
+            margin: 5px;
+            border-radius: 20%;
+            background-color: #edeef1;
+            color: #acb4b6;
+            animation: efecto-bread-crumbs 3s ease 1s infinite;
+        }
+        .animated2 {
+            width: 15px;
+            height: 15px;
+            margin: 5px;
+            border-radius: 20%;
+            background-color: #edeef1;
+            color: #acb4b6;
+            animation: efecto-bread-crumbs 3s ease 2s infinite;
+        }
+        .animated3 {
+            width: 15px;
+            height: 15px;
+            margin: 5px;
+            border-radius: 20%;
+            background-color: #edeef1;
+            color: #acb4b6;
+            animation: efecto-bread-crumbs 3s ease 2s infinite;
+        }
+
+        @keyframes efecto-bread-crumbs {
+            0% {
+                background: #fdcf73;
+            }
+            50% {
+                background-color: white;
+            }
+            100% {
+                background: #f09918;
+            }
         }
     }
 
-.animation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 35px;
-    .animated {
-        width: 15px;
-        height: 15px;
-        margin: 5px;
-        border-radius: 20%;
-        background-color: #edeef1;
-        color: #acb4b6;
-        animation: efecto-bread-crumbs 3s ease 1s infinite;
-    }
-    .animated2 {
-        width: 15px;
-        height: 15px;
-        margin: 5px;
-        border-radius: 20%;
-        background-color: #edeef1;
-        color: #acb4b6;
-        animation: efecto-bread-crumbs 3s ease 2s infinite;
-    }
-    .animated3 {
-        width: 15px;
-        height: 15px;
-        margin: 5px;
-        border-radius: 20%;
-        background-color: #edeef1;
-        color: #acb4b6;
-        animation: efecto-bread-crumbs 3s ease 2s infinite;
-    }
-
-    @keyframes efecto-bread-crumbs {
-        0% {
-        background: #FDCF73;
-        }
-        50% {
-        background-color: white;
-        }
-        100% {
-        background: #f09918;
-        }
-    }
-}
-
-/*
-iframe {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-right: 45px;
-    margin-bottom:45px;
-    border-radius: 5px;
-    max-width: 500px;
-        }
-}*/
-
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
         .contenedorContacto {
             display: flex;
             flex-direction: column;
@@ -535,16 +506,16 @@ iframe {
             max-width: 100%;
             margin: 0 auto;
             text-align: center;
-                h2{
+            h2 {
                 text-align: center;
-                margin: 0 auto;    
-                }
-                iframe {
+                margin: 0 auto;
+            }
+            iframe {
                 width: 100%;
                 text-align: center;
-                }
-                .section2 {
-                    .foto20 {
+            }
+            .section2 {
+                .foto20 {
                     width: 100%;
                     margin-right: 20px;
                     text-align: center;

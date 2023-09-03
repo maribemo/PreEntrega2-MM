@@ -53,8 +53,7 @@ header nav {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  /*background: linear-gradient(rgb(209, 224, 233), rgb(227, 230, 233));*/
-  background-color: #FDCF73; }
+  background-color: #fdcf73; }
   header nav .navbar-nav a:hover {
     color: white;
     border: whitesmoke solid 1px;
@@ -87,8 +86,7 @@ main h2 {
   padding: 10px;
   color: #9e9d9d;
   font-size: 20px;
-  /*background-color: white;*/
-  width: 90%; }
+  width: 100%; }
 
 main .section1 {
   color: #17172b;
@@ -105,9 +103,7 @@ main .section1 {
 main .card-group {
   max-width: 90%;
   margin: 0 auto;
-  border-radius: 0px 0px 0px 0px;
-  /*.card{
-            background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/ }
+  border-radius: 0px 0px 0px 0px; }
 
 main .btn-color {
   background-color: #6d6d97;
@@ -133,8 +129,7 @@ main .retorno {
   text-align: center; }
   main .retorno button.btn a {
     text-decoration: none;
-    /*background-color: #e2e2e6;*/
-    background-color: #FDCF73;
+    background-color: #fdcf73;
     border: #f3f3f7 solid 3px;
     border-radius: 5px;
     padding: 5px; }
@@ -155,8 +150,7 @@ p.section1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /*background-image: linear-gradient(rgb(195, 195, 204), rgb(252, 247, 247));*/ }
+  align-items: center; }
   .card .colorCard {
     text-align: center; }
     .card .colorCard .ordenFoto {
@@ -222,14 +216,14 @@ h2 {
   grid-template-areas: "header header header" "main aside aside"; }
   .contenedorPadre .Item1 {
     /*background-color: $colorItem1;*/
-    background-color: #fcfafa;
+    background-color: #fffbfb;
     grid-area: header;
     padding: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: grey;
-    max-width: 100%;
+    max-width: 85%;
     margin: 0 auto;
     margin-bottom: 10px; }
   .contenedorPadre .Item2 {
@@ -270,8 +264,7 @@ h2 {
       justify-content: center;
       list-style-type: none;
       margin: 0 auto;
-      line-height: 1.5;
-      /*list-style-image: url("../img/icono-ok-2.png");*/ }
+      line-height: 1.5; }
       .contenedorPadre .Item3 ul h3 {
         text-align: center;
         padding: 15px;
@@ -335,7 +328,6 @@ h2 {
   width: 100% auto;
   text-align: center;
   gap: 15px;
-  /*background-color: #bbc1c2;*/
   margin: 0 auto;
   gap: 15px;
   background-color: #fcfeff; }
@@ -373,20 +365,8 @@ h2 {
   flex-wrap: wrap;
   max-width: 90%;
   margin: 0 auto;
-  /*background-color: #f6f6fa;*/
   background-color: #f7f7fc;
-  border-radius: 5px;
-  /*
-iframe {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-right: 45px;
-    margin-bottom:45px;
-    border-radius: 5px;
-    max-width: 500px;
-        }
-}*/ }
+  border-radius: 5px; }
   .contenedorContacto .formu {
     max-width: 600px;
     margin: 0 auto;
@@ -487,7 +467,7 @@ iframe {
 
 @keyframes efecto-bread-crumbs {
   0% {
-    background: #FDCF73; }
+    background: #fdcf73; }
   50% {
     background-color: white; }
   100% {
@@ -528,7 +508,7 @@ footer {
       width: 55px;
       padding: 5px;
       text-align: center;
-      border-radius: 10px; }
+      border-radius: 30px; }
     footer .Item4 .foto11 {
       width: 25px;
       border-radius: 5px; }
