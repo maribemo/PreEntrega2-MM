@@ -345,12 +345,14 @@ h2 {
   margin: 0 auto;
   gap: 15px;
   background-color: #fcfeff; }
+  .container iframe.iframeSize {
+    width: 450px; }
   .container h3 {
     color: #504444; }
 
 @media (max-width: 576x) {
   iframe.iframeSize {
-    max-width: 300px;
+    max-width: 200px;
     text-align: center; } }
 
 .colorCard {
@@ -365,7 +367,7 @@ h2 {
       text-align: center; }
       @media (max-width: 480px) {
         .colorCard .div .iframe {
-          width: 200px; } }
+          width: 100px; } }
 
 .row .iframeSize {
   max-width: 400px; }

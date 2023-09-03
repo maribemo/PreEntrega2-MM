@@ -348,6 +348,9 @@ h2 {
     margin: 0 auto;
     gap: 15px;
     background-color: #fcfeff;
+    iframe.iframeSize{
+        width: 450px;
+    }
     h3{
         color: rgb(80, 68, 68);
     }
@@ -356,7 +359,7 @@ h2 {
 
 @media (max-width: 576x) {
     iframe.iframeSize {
-        max-width: 300px;
+        max-width: 200px;
         text-align: center;
     }
 }
@@ -371,7 +374,7 @@ h2 {
         .iframe {
             text-align: center;
             @media (max-width: 480px){
-                width: 200px ;
+                width: 100px ;
             }
         }
     }
