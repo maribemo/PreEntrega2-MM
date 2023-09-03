@@ -433,7 +433,8 @@ iframe {
     max-width: 80px; }
   .contenedorContacto .fotoPP {
     margin: 0 auto;
-    max-width: 60px; }
+    max-width: 70px;
+    padding: 5px; }
   .contenedorContacto .btn-color {
     background-color: #5a5a8f;
     color: white;
